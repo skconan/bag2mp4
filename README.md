@@ -32,3 +32,8 @@
 * catkin_make
 * If error please check install path (CMAKE_INSTALL_PREFIX=/usr/local) 
   - If your path is not /usr/local. please change directory in CMakeLists.txt line 7 SET(OpenCV_DIR /usr/local/lib/cmake/opencv4/)
+
+
+### Execute
+
+* rosrun bag2mp4 bag2mp4 <filename.bag> <topicname> <fps> <output.mp4>
