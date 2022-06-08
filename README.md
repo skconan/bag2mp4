@@ -11,7 +11,7 @@
 * git checkout <version>
 * mkdir build
 * cd build
-* -D CMAKE_BUILD_TYPE=RELEASE \
+* cmake -D CMAKE_BUILD_TYPE=RELEASE \
             -D CMAKE_INSTALL_PREFIX=/usr/local \
             -D INSTALL_C_EXAMPLES=ON \
             -D INSTALL_PYTHON_EXAMPLES=ON \
